@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    style="@style/AppTheme.NoActionBar"
+    tools:context="com.gaston.ciudaduniversitariainteligente.loginFragment">
+
+    <ImageView
+        android:id="@+id/imgLogoUNL"
+        android:layout_width="wrap_content"
+        android:layout_height="141dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="48dp"
+
+        android:src="@drawable/logounl"
+        tools:src="@drawable/logounl" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="48dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:textColor="@color/otherFontColor"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="48dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="@color/otherFontColor"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@color/colorAccent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+
+            android:background="@color/colorAccent"
+            android:layout_weight="1"
+            android:text="INICIAR"
+            android:textColor="@color/FontColor" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnIngresante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="48dp"
+        android:background="@color/colorAccent"
+        android:text="Soy ingresante"
+        android:textColor="@color/FontColor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:linksClickable="true"
+            android:text="¿No tenés una cuenta?  "
+            android:textAlignment="viewEnd"
+            android:textColor="@color/otherFontColor" />
+
+        <Button
+            android:id="@+id/btnGoToSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparente"
+            android:text="Registrate"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="¿No tenés una cuenta? Registrate"
+        android:textAlignment="center" />
+
+</LinearLayout>

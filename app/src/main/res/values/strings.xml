@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Ciudad Universitaria Inteligente</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pantalla_carga">pantalla_carga</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="universidad"> Universidad Nacional del Litoral </string>
+    <string-array name="carreras">
+        <item>Elige una carrera</item>
+        <item>Ingeniería en Agrimensura</item>
+        <item>Ingeniería en Informática</item>
+        <item>Ingeniería en Recursos Hídricos</item>
+        <item> Arquitectura     </item>
+
+    </string-array>
+    <!--Firebase requirements-->hConfig authConfig = new TwitterAuthConfig("Insert Consumer key
+    here(CONSUMER KEY (API KEY)) ",Insert consumer secret key here(CO
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">519807988528963</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb519807988528963</string>
+    <!--&lt;!&ndash; Twitter consumer key and secret &ndash;&gt;-->
+    <string name="twitter_consumer_key" translatable="false">NzOcdq6EDmHVVuNq2zeICBPkZ</string>
+    <string name="twitter_consumer_secret" translatable="false">JLtKNLmgvCHSVE0nwq8xgrgNEJkOYZZmRltaO54aGt5S06HHc</string>
+    <string name="usuPassWrong">Usuario o Contraseña incorrectos</string>
+
+</resources>

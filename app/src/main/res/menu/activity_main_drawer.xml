@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/buscar"
+            android:icon="@drawable/buscar_icon"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/mapa_completo"
+            android:icon="@drawable/mapa_icon"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/ultimas"
+            android:icon="@drawable/ultimas_icon"
+            android:title="Últimas Busquedas" />
+        <item
+            android:id="@+id/usuario"
+            android:icon="@drawable/usuario_icon"
+            android:title="Usuario" />
+        <item
+            android:id="@+id/enviarMensaje"
+            android:icon="@drawable/message"
+            android:title="Mensajes" />
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/informar_error"
+                android:icon="@drawable/error_icon"
+                android:title="Informar un error" />
+            <item
+                android:id="@+id/creditos"
+                android:icon="@drawable/about_icon"
+                android:title="Créditos" />
+            <item
+                android:id="@+id/cerrar"
+                android:iconTint="#FFFFFF"
+                android:icon="@drawable/cerrar_icon"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>

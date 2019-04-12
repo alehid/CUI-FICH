@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="colorPrimary">#3F51B5</color> -->
+    <color name="colorPrimary">#0885a5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#006587</color>
+    <color name="FontColor">#ffffff</color>
+    <color name="transparente">#00ffffff</color>
+    <color name="rojo">#FF0000</color>
+
+    <color name="negro">#000000</color>
+    <color name="qrboton">#E41B5F</color>
+    <color name="background_color">#CCCCCC</color>
+    <color name="otherFontColor">#000000</color>
+    <color name="buttonSave">#19B286</color>
+
+</resources>
